@@ -1,8 +1,13 @@
 *{
-    font-family: "DM Sans", sans-serif;
-    background: #f9f1e4;
+    background: #F2F1E6;
+}
 
+h1{
+    font-family: "Kalnia", serif;
+}
 
+h2, h3, p{
+    font-family: 'helvetica';
 }
 
 body {
