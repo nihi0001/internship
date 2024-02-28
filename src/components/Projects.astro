@@ -1,0 +1,83 @@
+<hr />
+<div class="container">
+  <h1>Projekter</h1>
+  <div class="grid">
+    <img src="/ux.webp" alt="" />
+    <img src="/ca.webp" alt="" />
+    <img src="/vahlwood.webp" alt="" />
+  </div>
+
+  <div class="link">
+    <div>
+      <a href="https://regal-sable-07161b.netlify.app/"
+        >Redesign for UX Copenhagen:</a
+      >
+    </div>
+    <div><a href="https://tema9.netlify.app/">Kampange for CA A-kasse:</a></div>
+    <div>
+      <a href="https://eksamensprojektvol2.netlify.app/"
+        >Redesign for Vahl Wood:</a
+      >
+    </div>
+  </div>
+</div>
+<hr />
+
+<style>
+  .container {
+    padding: 25px;
+  }
+
+  h1 {
+    text-transform: uppercase;
+  }
+
+  img {
+    width: 300px;
+    height: auto;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 1rem;
+  }
+
+  a {
+    text-decoration: none;
+    font-family: "helvetica";
+    color: black;
+  }
+
+  .link{
+    margin-top: 3rem;
+  }
+
+  @media screen and (min-width: 600px) {
+    .container {
+      padding: 55px;
+    }
+    h1 {
+      font-size: 60px;
+    }
+
+    h2 {
+      font-size: 25px;
+    }
+
+    h3 {
+      font-size: 20px;
+      max-width: 70%;
+    }
+
+    img {
+      width: 400px;
+      height: auto;
+    }
+
+    .grid {
+    justify-items: center;
+      /*gap: 1rem;*/
+    }
+  }
+</style>
