@@ -1,6 +1,6 @@
-* {
+/** {
     background: #F2F1E6;
-}
+}*/
 
 h1 {
     font-family: "Kalnia", serif;
@@ -20,6 +20,8 @@ a {
 body {
     margin: 0;
     padding: 0;
+    background: #F2F1E6;
+
 
 }
 
