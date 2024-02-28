@@ -2,21 +2,22 @@
 <div class="container">
   <h1>Projekter</h1>
   <div class="grid">
-    <img src="/ux.webp" alt="" />
-    <img src="/ca.webp" alt="" />
-    <img src="/vahlwood.webp" alt="" />
-  </div>
-
-  <div class="link">
-    <div>
+    <div class="item">
+      <img src="/ux.webp" alt="" />
       <a href="https://regal-sable-07161b.netlify.app/"
-        >Redesign for UX Copenhagen:</a
+        >Redesign for UX Copenhagen</a
       >
     </div>
-    <div><a href="https://tema9.netlify.app/">Kampange for CA A-kasse:</a></div>
-    <div>
+
+    <div class="item">
+      <img src="/ca.webp" alt="" />
+      <a href="https://tema9.netlify.app/">Kampange for CA A-kasse</a>
+    </div>
+
+    <div class="item">
+      <img src="/vahlwood.webp" alt="" />
       <a href="https://eksamensprojektvol2.netlify.app/"
-        >Redesign for Vahl Wood:</a
+        >Redesign for Vahl Wood</a
       >
     </div>
   </div>
@@ -46,10 +47,24 @@
   a {
     text-decoration: none;
     font-family: "helvetica";
-    color: black;
+    color: #F2F1E6;
+    display: block;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    background-color: #000000;
+    padding: 10px;
+    border-radius: 10px;
   }
 
-  .link{
+  a:hover{
+    color: #000000;
+    background-color: #F2F1E6;
+
+
+
+  }
+
+  .link {
     margin-top: 3rem;
   }
 
@@ -76,8 +91,12 @@
     }
 
     .grid {
-    justify-items: center;
+      justify-items: center;
       /*gap: 1rem;*/
     }
+
+    a {
+    text-align: center;
+  }
   }
 </style>
