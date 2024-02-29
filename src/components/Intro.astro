@@ -6,7 +6,7 @@
   <p>Mit navn er Nina Hildebrandt, jeg er 22 år gammel. Jeg studerer jeg multimediedesign på KEA på 3. semester. Jeg søger en praktikplads indenfor områder som digitalt design, webdesign, UI/UX og frontend-udvikling. Jeg håber, at min profil kan imødekomme jeres behov.  </p>
 </section>
 <section class="col2">
-  <img src="/ninaportræt.webp" alt="">
+  <img src="/ninaportrætny.webp" alt="">
 </section>
 </div>
 </div>
@@ -15,12 +15,17 @@
 
   .grid{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-template-columns: 1fr;
   }
 
   img{
-    width: 300px;
+    width: 200px;
     height: auto;
+    margin-top: 2rem;
+  }
+
+  .col2{
+    text-align: center;
   }
 
 
@@ -44,9 +49,10 @@
 
   @media screen and (min-width: 600px) {
 
-    .grid{
-    grid-template-columns: 2fr 1fr;
-  }
+    .col2{
+      text-align: left;
+
+    }
 
  
     h1{
@@ -63,5 +69,19 @@
         font-size: 18px;
         max-width: 70%;
     }
+
+    img{
+    width: 300px;
+    height: auto;
+  }
 }
+
+@media screen and (min-width: 1000px) {
+
+.grid{
+grid-template-columns: 2fr 1fr;
+
+}}
+
+
 </style>
