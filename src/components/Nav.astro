@@ -1,10 +1,10 @@
 <div class="navbar" id="navbar">
   <a href="/">PROFIL</a>
- 
-  <a href="/cv">CV</a>
   <a href="/https://www.linkedin.com/in/nina-grandil-hildebrandt-712525171">
     <img src="/linkedin.svg" alt="" class="logo" id="linkedin-icon" />
 </a>
+  <a href="/cv">CV</a>
+
 </div>
 
 <style>
@@ -13,7 +13,7 @@
     justify-content: flex-end;
     align-items: center;
     padding: 15px;
-    margin-right: 2rem;
+    margin-right: 0rem;
     /*background-color: aqua;*/
   }
 
@@ -33,6 +33,12 @@
     font-family: "Kalnia", serif;
     margin-right: 20px;
   }
+
+  @media screen and (min-width: 600px) {
+
+    .navbar {
+    margin-right: 2rem;
+  }}
 </style>
 
 <script>
