@@ -12,7 +12,7 @@ h1 {
 h2,
 h3,
 p,
-a {
+a, li {
     font-family: 'helvetica';
     line-height: 1.5;
 }
@@ -34,7 +34,7 @@ body {
 @media screen and (min-width: 600px) {
 
     .container {
-        padding: 55px;
+       padding: 55px;
 
     }
 
