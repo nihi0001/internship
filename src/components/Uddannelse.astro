@@ -1,0 +1,108 @@
+
+<div class="container">
+    <h2 class="overskrift1">Udannelse</h2>
+    
+<div class="grid">
+    <section class="col1">
+      <h2>KEA</h2>
+      <h3>Multimediedesign</h3>
+      <p>2022 - 2024</p>
+    </section>
+
+    <section class="col1">
+      <h2>Niels Brock NVG</h2>
+      <h3>HHX, markedsføring</h3>
+      <p>2017 - 2020</p>
+    </section>
+  </div>
+</div>
+</div>
+<hr />
+
+
+<style>
+  .grid {
+    display: grid;
+    /*grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));*/
+    grid-template-columns: 1fr;
+
+  }
+
+  li {
+    text-decoration: none;
+    list-style-type: none;
+    margin-top: 1rem;
+    font-weight: 300;
+  }
+
+  .col1,
+  .col2 {
+    margin-top: 1rem;
+    padding: 5px;
+  }
+
+  h2 {
+    text-transform: uppercase;
+    font-family: "Kalnia", serif;
+    font-weight: 400;
+    font-size: 22px;
+  }
+
+  h3 {
+    font-weight: 400;
+    font-size: 18px;
+  }
+
+  p{
+    font-size: 16px;
+    font-weight: 300;
+  }
+
+  .overskrift1 {
+    font-size: 25px;
+    font-weight: 500;
+  }
+
+  hr {
+    margin-top: 2rem;
+  }
+
+  .cv{
+    font-size: 30px;
+  }
+
+
+
+  @media screen and (min-width: 600px) {
+
+    li {
+      max-width: 70%;
+    }
+
+    .col1,
+    .col2 {
+      margin-top: 2rem;
+    }
+    .overskrift1 {
+    font-size: 40px;
+    font-weight: 500;
+  }
+
+  h2{
+    font-size: 25px;
+  }
+
+  .cv{
+    font-size: 60px;
+  }
+  }
+
+  @media screen and (min-width: 800px) {
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+    }
+
+  }
+
+</style>
