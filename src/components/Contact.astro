@@ -1,36 +1,60 @@
 <div class="container">
-    <h1>Kontakt</h1>
-    <h3>Telefon nr</h3>
-    <p>+45 30355465</p>
-    <h3>E-mail</h3>
-    <p>ninagh@live.dk / nihi0001@stud.kea.dk</p>
+  <h1>Kontakt</h1>
+
+  <div class="grid">
+    <section class="col1">
+      <h3>Telefon nr</h3>
+      <p>+45 30355465</p>
+    </section>
+    <section class="col2">
+      <h3>E-mail</h3>
+      <p>ninagh@live.dk / nihi0001@stud.kea.dk</p>
+    </section>
+  </div>
+
 </div>
 
 <style>
-  
-  h1{
+  .grid {
+    display: grid;
+    /*grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));*/
+    grid-template-columns: 1fr;
+  }
+  h1 {
     font-size: 30px;
   }
 
   h3 {
     font-weight: 400;
     font-size: 18px;
+    font-family: helvetica;
+
   }
 
-  p{
+  p {
     font-size: 16px;
     font-weight: 300;
   }
 
-
+  .logo {
+    width: 40px;
+    height: auto;
+    /* margin-right: 10px;*/
+    margin-left: 8px;
+  }
 
   @media screen and (min-width: 600px) {
+    h1 {
+      font-size: 40px;
+    }
+  }
 
-h1{
-    font-size: 40px;
-
-}
-
-
-}
+  @media screen and (min-width: 800px) {
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  }
 </style>
+
+
